@@ -168,3 +168,86 @@
 .reset-button:active {
     transform: translateY(0);
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .color-picker-toggle {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+    }
+    
+    .color-picker-panel {
+        right: 0;
+        min-width: 280px;
+        max-width: calc(100vw - 20px);
+        padding: 20px;
+    }
+    
+    .color-picker-panel h3 {
+        font-size: 1.125rem;
+    }
+    
+    .color-option input[type="color"] {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .color-picker-toggle {
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+    }
+    
+    .color-picker-panel {
+        min-width: 260px;
+        max-width: calc(100vw - 16px);
+        padding: 16px;
+        top: 60px;
+    }
+    
+    .color-picker-panel h3 {
+        font-size: 1rem;
+        margin-bottom: 16px;
+    }
+    
+    .settings-section {
+        margin-bottom: 20px;
+    }
+    
+    .settings-section h4 {
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+    
+    .currency-select {
+        padding: 8px 10px;
+        font-size: 0.875rem;
+    }
+    
+    .color-option {
+        margin-bottom: 12px;
+        padding: 6px;
+    }
+    
+    .color-option label {
+        font-size: 0.8125rem;
+    }
+    
+    .color-option input[type="color"] {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .color-option span {
+        font-size: 0.7rem;
+        padding: 3px 6px;
+    }
+    
+    .reset-button {
+        padding: 10px;
+        font-size: 0.8125rem;
+    }
+}

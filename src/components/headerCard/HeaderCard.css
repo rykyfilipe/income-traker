@@ -34,3 +34,32 @@
     color: #2d3748;
     text-align: center;
 }
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .header-card-container {
+        padding: 12px;
+    }
+    
+    .header-card-title {
+        font-size: 0.75rem;
+    }
+    
+    .header-card-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-card-container {
+        padding: 10px;
+    }
+    
+    .header-card-title {
+        font-size: 0.7rem;
+    }
+    
+    .header-card-container h2 {
+        font-size: 1.25rem;
+    }
+}
