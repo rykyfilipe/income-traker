@@ -1,0 +1,36 @@
+.header-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    background-color: white;
+    padding: 16px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-card-container > div:first-child {
+    width: 100%;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8eef5 100%);
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.header-card-title {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin: 0;
+    color: #4a5568;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.header-card-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #2d3748;
+    text-align: center;
+}

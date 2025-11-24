@@ -1,0 +1,30 @@
+.bar-chart-card {
+    border: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: white;
+    overflow: hidden;
+}
+
+.bar-chart-card h2 {
+    margin: 0 0 16px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2d3748;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 8px;
+}
+
+.bar-chart-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    position: relative;
+    padding: 10px;
+}

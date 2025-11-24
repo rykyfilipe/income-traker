@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Monserat', sans-serif;
+}
+
+:root {
+  /* Culori principale */
+  --color-bg: #ffffff;         /* fundal alb */
+  --color-text: #000000;       /* text negru */
+  --color-primary: #000000;    /* elemente principale (buton, link) */
+  --color-secondary: #333333;  /* elemente secundare (subtitluri, borduri) */
+  --color-accent: #999797;     /* accente pentru hover, highlights */
+
+  /* Nuanțe pentru UI */
+  --color-border: #999797;     /* borduri */
+  --color-bg-alt: #f9f9f9;     /* fundal alternativ */
+  --color-text-alt: #666666;   /* text secundar */
+}
